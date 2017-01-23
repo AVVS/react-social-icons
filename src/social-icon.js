@@ -18,6 +18,7 @@ function SocialIcon(props) {
     <a
       href={url}
       target="_blank"
+      rel="noopener"
       className={cx('social-icon', className)}
       style={socialIcon}
       {...rest}
